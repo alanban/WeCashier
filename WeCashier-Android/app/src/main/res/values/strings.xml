@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeCashier</string>
+
+    <!-- copyright -->
+    <string name="weCashier">微收银</string>
+    <string name="weCashier_email">wecashier@bansen.cc</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- cashier -->
+    <string name="cashier_Hang_up">挂起订单</string>
+    <string name="cashier_Delete">删除订单</string>
+    <string name="cashier_Check_out">结账</string>
+
+</resources>

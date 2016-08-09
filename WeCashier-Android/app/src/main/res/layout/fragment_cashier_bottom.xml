@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/cashier_bt_delete"
+        android:textSize="@dimen/textSize_Small"
+        android:textColor="@color/colorTextNormal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/cashier_Delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/cashier_bt_check_out"
+        android:textSize="@dimen/textSize_Small_plus"
+        android:textColor="@color/colorHint"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/cashier_Check_out"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/cashier_bt_hang_up"
+        android:textSize="@dimen/textSize_Small"
+        android:textColor="@color/colorTextNormal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/cashier_Hang_up"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
