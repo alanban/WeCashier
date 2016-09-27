@@ -5,5 +5,5 @@ open -source Cashier App(Android)
   * Dagger2
   * zxing 
   
-  --1.MVP
-  --2.Modular design 
+  -1.MVP
+  -2.Modular design 
