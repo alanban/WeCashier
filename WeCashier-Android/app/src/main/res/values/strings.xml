@@ -1,16 +1,65 @@
 <resources>
-    <string name="app_name">WeCashier</string>
-
-    <!-- copyright -->
-    <string name="weCashier">微收银</string>
-    <string name="weCashier_email">wecashier@bansen.cc</string>
+    <string name="app_name">微收银</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="WeCashier_Eng">WeCashier</string>
+    <string name="WeCashier_CN">微收银</string>
+    <string name="Email">bansen@bansen.cc</string>
+    <string name="Blog">http://139.129.132.218/</string>
+    <string name="action_settings">Settings</string>
 
-    <!-- cashier -->
-    <string name="cashier_Hang_up">挂起订单</string>
-    <string name="cashier_Delete">删除订单</string>
-    <string name="cashier_Check_out">结账</string>
+
+    <!-- nav view-->
+    <string name="nav_cashier">收银</string>
+    <string name="scan">扫码</string>
+    <string name="nav_handover">交接班</string>
+    <string name="nav_addgoods">增加/修改商品</string>
+    <string name="nav_report">报表</string>
+    <string name="nav_setting">设置</string>
+    <string name="title_activity_overorder_">收银</string>
+    <string name="nav_cheackStock">查询库存</string>
+    <string name="nav_special_offer">特价管理</string>
+    <string name="nav_Stocksetting">库存管理</string>
+    <!-- addgoodsfragment-->
+    <string name="barcode">条码</string>
+    <string name="name">商品名称</string>
+    <string name="tag">商品类别</string>
+    <string name="unit">商品单位</string>
+    <string name="brand">商品品牌</string>
+    <string name="property">商品属性</string>
+    <string name="acquisition_value">购入价</string>
+    <string name="selling_value">售价</string>
+    <!-- addgoodsfragment-->
+    <string name="pleaseCashier">输入实收金额</string>
+    <!-- setting-->
+    <string name="BTprinterSet">蓝牙小票机设置</string>
+    <string name="About">关于软件</string>
+    <string name="blueTooth">蓝牙打印小票</string>
+    <string name="OnbondDivice">搜索到蓝牙设备:</string>
+
+    <string name="confuse">确认</string>
+    <string name="cancel">取消</string>
+    <string name="barcode_hint">或输入条码</string>
+
+    <!-- goods item -->
+    <string name="good_item_price">%d元</string>
+    <!-- order item -->
+    <string name="order_title">订单</string>
+    <string name="order_add">添加商品</string>
+
+    <string name="custom_view_finder_sample">Custom View Finder Sample</string>
+    <string name="scaling_sample">Scaling Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <bool name="cameraPreviewShouldFillView">true</bool>
 
 </resources>

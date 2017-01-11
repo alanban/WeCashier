@@ -1,29 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <android.support.design.widget.TabLayout
-        android:id="@+id/cashier_TabLayout"
-        android:layout_alignParentStart="true"
-        android:background="@color/colorPrimary"
-        app:tabIndicatorColor="@color/colorHint"
-        app:tabSelectedTextColor="@color/colorTextSelect"
-        app:tabTextColor="@color/colorText"
+        android:id="@+id/cashier_tablayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorColor="@color/white"
+        app:tabSelectedTextColor="@color/lightwrite"
+        app:tabMode="scrollable"
+        app:tabTextColor="@color/white"
+        />
+
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/cashier_ViewPager"
-        android:layout_above="@+id/cashier_BottomLayout"
-        android:layout_below="@+id/cashier_TabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-    <include
-        android:id="@+id/cashier_BottomLayout"
-        layout="@layout/fragment_cashier_bottom"
+        android:layout_below="@+id/cashier_tablayout"
+        android:id="@+id/cashier_order_container"
+        android:layout_width="fill_parent"
+        android:layout_above="@+id/bottomBar"
+        android:layout_height="match_parent"
         />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomBar"
+        >
+        <Button
+            android:layout_weight="1"
+            android:text="删除订单"
+            android:id="@+id/cashier_deleteOrder"
+            android:textSize="13.5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonbackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:text="结账"
+            android:textSize="13.5dp"
+            android:id="@+id/cashier_checkOut"
+            android:textColor="@color/yello"
+            android:background="@drawable/buttonbackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="挂起订单"
+            android:textSize="13.5dp"
+            android:layout_weight="1"
+            android:id="@+id/cashier_createOrder"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonbackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 </RelativeLayout>
